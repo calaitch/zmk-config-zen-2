@@ -24,7 +24,7 @@
    &kp ESC   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SEMI &kp BSPC
    &kp LSHFT &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E     &kp I   &kp O    &kp SQT
    &kp LCTRL &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp TAB
-                  &kp LGUI &mo 1 &kp RET   &kp SPACE &mo 2 &kp RALT
+                   &kp LGUI &mo 1 &kp RET    &kp SPACE &mo 2 &kp RALT
                         >;
                 };
                 lower_layer {
@@ -48,12 +48,12 @@
 // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
 // | SHFT |     |     |  ?  |     |     |   |  :  |  =  |  [  |  ]  |  \  |  `   |
 // | CTRL |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-//                    | GUI |     | SPC |   | ENT |     | ALT |
+//                    | GUI |     | ENT |   | SPC |     | ALT |
                         bindings = <
    &kp  TAB  &kp EXCL &kp AT &kp HASH    &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
    &kp LSHFT &trans   &trans &kp QMARK   &trans   &trans      &kp COLON &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
    &kp LCTRL &trans   &trans &trans      &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
-                    	       &kp LGUI    &trans   &kp SPACE   &kp RET   &trans    &kp RALT
+                    	       &kp LGUI    &trans   &kp RET     &kp SPACE   &trans    &kp RALT
                         >;
                 };
         };
