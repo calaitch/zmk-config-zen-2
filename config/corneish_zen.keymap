@@ -14,7 +14,7 @@
                 compatible = "zmk,keymap";
 
                 default_layer {
-                        label = "Colemak";
+                        label = "";
 // -----------------------------------------------------------------------------------------
 // |  ESC |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L   |  U  |  Y  |  ;  | BKSP |
 // | SHFT |  A  |  R  |  S  |  T  |  G  |   |  M  |  N   |  E  |  I  |  O  |  '   |
